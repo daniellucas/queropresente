@@ -85,4 +85,7 @@ Catarse::Application.configure do
   config.action_dispatch.default_headers = {
     'X-Frame-Options' => 'ALLOWALL'
   }
+    
+    config.action_dispatch.show_exceptions = true #status error pages work again!
+    
 end
