@@ -86,4 +86,5 @@ Catarse::Application.configure do
     'X-Frame-Options' => 'ALLOWALL'
   }
     
+    config.secret_key_base = ENV["SECRET_KEY_BASE"]
 end
